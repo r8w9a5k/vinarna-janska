@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinárna Janská — sklep k pronájmu na oslavy a firemní večírky | Opava</title>
+<meta name="description" content="Sklepní vinárna v centru Opavy k pronájmu pro uzavřenou společnost. Rodinné oslavy a firemní večírky až pro 24 hostů u jedné dlouhé tabule pod cihlovou klenbou.">
+<meta property="og:title" content="Vinárna Janská — celý sklep jen pro vaše lidi">
+<meta property="og:description" content="Klenutý sklep v centru Opavy k pronájmu na rodinné oslavy i firemní večírky. Až 24 hostů u jedné tabule.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..700&family=Karla:ital,wght@0,300..700;1,300..600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#obsah">Přeskočit na obsah</a>
+
+<!-- POZN: adresa rezervacniho systemu je zatim placeholder.
+     Je na 3 mistech: tlacitko v hlavicce, tlacitko v heru, tlacitko pod cenikem. -->
+
+<header class="head" id="top">
+  <div class="wrap head-in">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M7 3h10l-1.3 7.2A4 4 0 0 1 12 13.6a4 4 0 0 1-3.7-3.4z" stroke="currentColor" stroke-width="1.3"/><path d="M12 13.6V20M8.6 20h6.8" stroke="currentColor" stroke-width="1.3"/></svg>
+      </span>
+      <span class="brand-txt">Vinárna <em>Janská</em></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Hlavní navigace">
+      <a href="#prostor">Prostor</a>
+      <a href="#prilezitosti">Příležitosti</a>
+      <a href="#cenik">Ceník</a>
+      <a href="#vina">Vína</a>
+      <a href="#faq">Otázky</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <div class="head-act">
+      <a class="btn btn-gold btn-sm" href="https://reservin.cz/vinarnajanska">Rezervovat</a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Otevřít menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="obsah">
+
+<!-- HERO: pudorys salu -->
+<section class="hero">
+  <div class="wrap hero-in">
+
+    <div class="hero-copy">
+      <p class="eyebrow">Sklepní vinárna &middot; Opava, Janská&nbsp;769/4</p>
+      <h1>Celá vinárna <em>jen pro Vás.</em></h1>
+      <p class="lede">Šest schodů pod úroveň ulice, cihlová klenba a dveře, které za vámi na celý večer
+        zavřeme. Rodinné oslavy a firemní večírky až pro dvacet čtyři hostů u jedné dlouhé tabule.</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="https://reservin.cz/vinarnajanska">Rezervovat</a>
+        <a class="btn btn-ghost" href="#prostor">Prohlédnout</a>
+      </div>
+
+      <p class="hero-note"><span class="dot" aria-hidden="true"></span> Volné termíny máme zpravidla do tří týdnů dopředu.</p>
+    </div>
+
+    <figure class="plan" id="plan">
+      <figcaption class="plan-head">
+        <span class="eyebrow">Půdorys sálu</span>
+      </figcaption>
+
+      <div class="plan-stage">
+        <svg class="plan-svg" viewBox="-86 12 812 400" role="img" aria-labelledby="plan-title plan-desc">
+          <title id="plan-title">Půdorys sklepního sálu Vinárny Janská</title>
+          <desc id="plan-desc">Schéma klenutého sálu s barem, výdejem, archivem vín a jednou dlouhou tabulí pro 24 hostů.</desc>
+
+          <!-- schodiste -->
+          <g class="plan-fix">
+            <path class="hair" d="M-70 190h110M-70 214h110M-70 238h110M-70 262h110M-70 286h110"/>
+            <path class="hair" d="M-70 186v104"/>
+            <text class="plan-lbl" x="-70" y="174">Vstup &middot; 6 schodů</text>
+          </g>
+
+          <!-- pasy klenby -->
+          <g class="plan-vault" aria-hidden="true">
+            <path d="M205 42v356M370 42v356M535 42v356"/>
+          </g>
+
+          <!-- obvod salu s apsidou -->
+          <path class="plan-room" d="M40 40H600a120 180 0 0 1 0 360H40Z"/>
+          <path class="plan-apse" d="M600 96a86 132 0 0 1 0 248"/>
+
+          <!-- vybaveni -->
+          <g class="plan-fix">
+            <rect class="fill" x="96" y="50" width="228" height="24" rx="6"/>
+            <text class="plan-lbl on-fill" x="110" y="67">Bar</text>
+
+            <rect class="fill" x="430" y="50" width="118" height="24" rx="6"/>
+            <text class="plan-lbl on-fill" x="444" y="67">Kuchyň</text>
+
+            <rect class="fill" x="96" y="366" width="98" height="24" rx="6"/>
+            <text class="plan-lbl on-fill" x="110" y="383">WC</text>
+
+            <text class="plan-lbl dim" x="614" y="222">Archiv vín</text>
+            <text class="plan-lbl dim" x="240" y="30">Cihlová klenba, výška 3,2 m</text>
+          </g>
+
+          <!-- svicky -->
+          <g class="candles" aria-hidden="true">
+            <g class="candle" transform="translate(120,130)"><circle class="glow" r="17"/><circle class="flame" r="3.4"/></g>
+            <g class="candle" transform="translate(300,92)"><circle class="glow" r="14"/><circle class="flame" r="3"/></g>
+            <g class="candle" transform="translate(490,358)"><circle class="glow" r="17"/><circle class="flame" r="3.4"/></g>
+            <g class="candle" transform="translate(652,220)"><circle class="glow" r="19"/><circle class="flame" r="3.8"/></g>
+            <g class="candle" transform="translate(160,332)"><circle class="glow" r="13"/><circle class="flame" r="2.8"/></g>
+          </g>
+
+          <!-- dlouha tabule, 24 mist -->
+          <g class="plan-layout is-on">
+            <rect class="tbl" x="150" y="190" width="410" height="60" rx="5"/>
+            <circle class="chr" cx="170" cy="168" r="9"/><circle class="chr" cx="207" cy="168" r="9"/><circle class="chr" cx="244" cy="168" r="9"/>
+            <circle class="chr" cx="281" cy="168" r="9"/><circle class="chr" cx="318" cy="168" r="9"/><circle class="chr" cx="355" cy="168" r="9"/>
+            <circle class="chr" cx="392" cy="168" r="9"/><circle class="chr" cx="429" cy="168" r="9"/><circle class="chr" cx="466" cy="168" r="9"/>
+            <circle class="chr" cx="503" cy="168" r="9"/><circle class="chr" cx="540" cy="168" r="9"/>
+            <circle class="chr" cx="170" cy="272" r="9"/><circle class="chr" cx="207" cy="272" r="9"/><circle class="chr" cx="244" cy="272" r="9"/>
+            <circle class="chr" cx="281" cy="272" r="9"/><circle class="chr" cx="318" cy="272" r="9"/><circle class="chr" cx="355" cy="272" r="9"/>
+            <circle class="chr" cx="392" cy="272" r="9"/><circle class="chr" cx="429" cy="272" r="9"/><circle class="chr" cx="466" cy="272" r="9"/>
+            <circle class="chr" cx="503" cy="272" r="9"/><circle class="chr" cx="540" cy="272" r="9"/>
+            <circle class="chr" cx="128" cy="220" r="9"/><circle class="chr" cx="582" cy="220" r="9"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="plan-read">
+        <p class="plan-num"><strong>24</strong> <span>míst u jedné dlouhé tabule</span></p>
+        <p class="plan-meta">Narozeniny &middot; svatební hostina &middot; křtiny &middot; výročí</p>
+      </div>
+    </figure>
+
+  </div>
+</section>
+
+<!-- PROSTOR -->
+<section class="sec" id="prostor">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow">Prostor</p>
+      <h2>Jedna místnost, žádní cizí lidé u&nbsp;vedlejšího stolu.</h2>
+      <p class="sec-lede">Sklep pronajímáme vždy celý. Nemícháme dvě akce dohromady a nepouštíme dovnitř
+        běžné hosty — po celou dobu je vinárna vaše, včetně baru.</p>
+    </header>
+
+    <div class="gal">
+      <figure class="gal-item">
+        <button type="button" class="shot" aria-label="Zvětšit fotku: hlavní sál s archivem vín">
+          <img src="assets/img/vinarna5.jpg" width="1600" height="1066" decoding="async"
+               alt="Klenutý sál s dlouhou tabulí a mřížovaným archivem vín v postranním výklenku">
+        </button>
+        <figcaption>Hlavní sál s archivem vín</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <button type="button" class="shot" aria-label="Zvětšit fotku: dlouhá tabule pod klenbou">
+          <img src="assets/img/vinarna6.jpg" width="1600" height="1066" loading="lazy" decoding="async"
+               alt="Dlouhá dřevěná tabule s židlemi po obou stranách pod cihlovou klenbou">
+        </button>
+        <figcaption>Dlouhá tabule pod klenbou</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <button type="button" class="shot" aria-label="Zvětšit fotku: vstup a boční klenba">
+          <img src="assets/img/vinarna1.jpg" width="1600" height="1066" loading="lazy" decoding="async"
+               alt="Vstupní dveře do vinárny, okno a dlážděná podlaha pod cihlovou klenbou">
+        </button>
+        <figcaption>Vstup a boční klenba</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <button type="button" class="shot" aria-label="Zvětšit fotku: barový pult a vysoké stoly">
+          <img src="assets/img/vinarna3.jpg" width="1600" height="1066" loading="lazy" decoding="async"
+               alt="Dřevěný barový pult s barovými židlemi a vysokými stoly">
+        </button>
+        <figcaption>Barový pult a vysoké stoly</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <button type="button" class="shot" aria-label="Zvětšit fotku: výčep">
+          <img src="assets/img/vinarna2.jpg" width="1600" height="1066" loading="lazy" decoding="async"
+               alt="Mosazná pípa na dlážděném výčepním pultu">
+        </button>
+        <figcaption>Výčep</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <button type="button" class="shot" aria-label="Zvětšit fotku: zděný gril">
+          <img src="assets/img/vinarna4.jpg" width="1600" height="1066" loading="lazy" decoding="async"
+               alt="Zděný gril z červených cihel s litinovými dvířky a zásobou dřeva">
+        </button>
+        <figcaption>Zděný gril</figcaption>
+      </figure>
+    </div>
+
+    <dl class="specs">
+      <div><dt>Plocha sálu</dt><dd>96 m²</dd></div>
+      <div><dt>Výška klenby</dt><dd>3,2 m</dd></div>
+      <div><dt>K sezení</dt><dd>až 24 hostů</dd></div>
+      <div><dt>Vstup</dt><dd>6 schodů dolů, bez výtahu</dd></div>
+      <div><dt>Hudba</dt><dd>vlastní playlist i DJ</dd></div>
+    </dl>
+
+    <div class="kuchyn">
+      <figure class="kuchyn-media">
+        <button type="button" class="shot" aria-label="Zvětšit fotku: kuchyně">
+          <img src="assets/img/kuchyn.jpg" width="1600" height="1066" loading="lazy" decoding="async"
+               alt="Plně vybavená kuchyň s myčkou, troubou, digestoří a dvojdřezem">
+        </button>
+      </figure>
+      <div class="kuchyn-copy">
+        <p class="eyebrow">K sálu patří</p>
+        <h3>Vlastní kuchyň hned vedle sálu</h3>
+        <p>Plně vybavená kuchyně s troubou, myčkou, dvojdřezem a odkládací plochou. Hodí se, když si
+          vezete vlastní catering, chystáte studenou mísu nebo potřebujete jen ohřát a naservírovat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRILEZITOSTI -->
+<section class="sec sec-tight" id="prilezitosti">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow">Příležitosti</p>
+      <h2>Vinárnu si nejčastěji rezervují</h2>
+    </header>
+
+    <div class="occ">
+      <article class="occ-col">
+        <h3 class="occ-h">Rodina a přátelé</h3>
+        <p class="occ-p">Večery, kde se sedí u jednoho stolu a mluví se přes celou tabuli — nikdo
+          neskončí sám na kraji.</p>
+        <ul class="tick">
+          <li>Kulaté narozeniny</li>
+          <li>Svatební hostina do 24 lidí</li>
+          <li>Křtiny a rodinná setkání</li>
+          <li>Výročí svatby</li>
+          <li>Promoce</li>
+          <li>Smuteční hostina</li>
+        </ul>
+      </article>
+
+      <article class="occ-col">
+        <h3 class="occ-h">Firmy</h3>
+        <p class="occ-p">Prostor, kde se lidé rozmluví rychleji než v zasedačce. Rezervace online,
+          doklad e-mailem, a můžete přijet dřív a nachystat si techniku.</p>
+        <ul class="tick">
+          <li>Vánoční večírek</li>
+          <li>Večeře s klientem</li>
+          <li>Uzavření obchodu</li>
+          <li>Teambuilding s degustací</li>
+          <li>Prezentace produktu</li>
+          <li>Setkání po konferenci</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CENIK: svetla zona -->
+<section class="sec zone-light" id="cenik">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow">Ceník pronájmu</p>
+      <h2>Platíte za vinárnu, ne za&nbsp;osobu.</h2>
+      <p class="sec-lede">Přes týden si sklep rezervujete po tříhodinových blocích. Chcete delší večer?
+        Vyberte v kalendáři víc bloků po sobě — cena za blok zůstává stejná.</p>
+    </header>
+
+    <!-- POZN: ceny dle zadani (2 000 Kc za blok). Popisky pod cenou jsou navrh. -->
+    <div class="price">
+      <article class="price-card">
+        <p class="price-hrs">Jeden blok</p>
+        <p class="price-when">3 hodiny</p>
+        <p class="price-val">2 000 <span>Kč</span></p>
+        <p class="price-for">Křtiny, rodinný oběd, menší posezení</p>
+      </article>
+
+      <article class="price-card is-pick">
+        <p class="price-tag">Nejčastější volba</p>
+        <p class="price-hrs">Dva bloky</p>
+        <p class="price-when">6 hodin</p>
+        <p class="price-val">4 000 <span>Kč</span></p>
+        <p class="price-for">Oslavy a firemní večeře</p>
+      </article>
+
+      <article class="price-card">
+        <p class="price-hrs">Tři bloky</p>
+        <p class="price-when">9 hodin</p>
+        <p class="price-val">6 000 <span>Kč</span></p>
+        <p class="price-for">Celovečerní oslavy a hostiny</p>
+      </article>
+    </div>
+
+    <div class="incl">
+      <div class="incl-col">
+        <h3 class="incl-h">V ceně pronájmu</h3>
+        <ul class="tick">
+          <li>Celý sklep pro uzavřenou společnost</li>
+          <li>Dlouhá tabule nachystaná na váš počet hostů</li>
+          <li>Sklo, nádobí, ubrusy, svíčky</li>
+          <li>Ozvučení a vlastní playlist</li>
+          <li>Kód pro samostatný vstup</li>
+        </ul>
+      </div>
+      <div class="incl-col">
+        <h3 class="incl-h">Doobjednáte podle chuti</h3>
+        <ul class="tick tick-alt">
+          <li>Studený raut nebo teplá večeře</li>
+          <li>Řízená degustace se someliérem</li>
+          <li>Sýrové a uzeninové prkénko</li>
+          <li>Dort a káva</li>
+          <li>Živá hudba nebo DJ</li>
+          <li>Květinová výzdoba stolu</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="fineprint">Ceny jsou konečné, jsme plátci DPH. Rezervaci potvrdíte platbou kartou
+      online, doklad přijde e-mailem.</p>
+
+    <p class="cenik-cta"><a class="btn btn-dark" href="https://reservin.cz/vinarnajanska">Vybrat termín v kalendáři</a></p>
+  </div>
+</section>
+
+<!-- PRUBEH: skutecna sekvence, proto cislujeme -->
+<section class="sec" id="prubeh">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow">Od rezervace k oslavě</p>
+      <h2>Rezervujete online, vstoupíte na&nbsp;kód.</h2>
+    </header>
+
+    <ol class="steps steps-3">
+      <li class="step">
+        <span class="step-n">01</span>
+        <h3>Online rezervace</h3>
+        <p>V kalendáři si jednoduše vyber termín, který ti vyhovuje. Pokud plánuješ delší oslavu,
+          zvol si více časových bloků po sobě. Rezervaci dokončíš rychlou a bezpečnou platbou kartou online.</p>
+      </li>
+      <li class="step">
+        <span class="step-n">02</span>
+        <h3>Automatický přístup</h3>
+        <p>Nejpozději 2 hodiny před začátkem obdržíš e-mail a SMS s kódem a instrukcemi pro vstup.
+          Celý proces je plně automatizovaný — v čase tvé rezervace stačí zadat kód.</p>
+      </li>
+      <li class="step">
+        <span class="step-n">03</span>
+        <h3>Přijdete jako host</h3>
+        <p>Sál je nachystaný, svíčky hoří, obsluha čeká. Vy jen sejdete šest schodů.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- VINA -->
+<section class="sec" id="vina">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow">Z vinného lístku</p>
+      <h2>Moravské sklepy, které známe osobně</h2>
+      <p class="sec-lede">Na stálém lístku držíme kolem třiceti položek. Pro vaši akci z nich vybereme
+        užší výběr — nebo přivezeme něco, co na lístku není.</p>
+    </header>
+
+    <!-- POZN: vina a ceny jsou navrh, nahradit skutecnym listkem -->
+    <div class="card-grid">
+      <div class="wine-col">
+        <h3 class="wine-h">Bílá</h3>
+        <ul class="wine-list">
+          <li><span class="w-n">Ryzlink rýnský <em>pozdní sběr</em></span><span class="w-r">Mikulovská</span><span class="w-p">490</span></li>
+          <li><span class="w-n">Veltlínské zelené <em>suché</em></span><span class="w-r">Znojemská</span><span class="w-p">390</span></li>
+          <li><span class="w-n">Sauvignon <em>výběr z hroznů</em></span><span class="w-r">Velkopavlovická</span><span class="w-p">560</span></li>
+          <li><span class="w-n">Pálava <em>polosladká</em></span><span class="w-r">Mikulovská</span><span class="w-p">470</span></li>
+          <li><span class="w-n">Rulandské šedé <em>barrique</em></span><span class="w-r">Slovácká</span><span class="w-p">620</span></li>
+        </ul>
+      </div>
+
+      <div class="wine-col">
+        <h3 class="wine-h">Červená a růžová</h3>
+        <ul class="wine-list">
+          <li><span class="w-n">Frankovka <em>pozdní sběr</em></span><span class="w-r">Velkopavlovická</span><span class="w-p">520</span></li>
+          <li><span class="w-n">Svatovavřinecké <em>suché</em></span><span class="w-r">Slovácká</span><span class="w-p">430</span></li>
+          <li><span class="w-n">Cabernet Moravia <em>výběr</em></span><span class="w-r">Velkopavlovická</span><span class="w-p">590</span></li>
+          <li><span class="w-n">Modrý Portugal <em>mladé</em></span><span class="w-r">Znojemská</span><span class="w-p">380</span></li>
+          <li><span class="w-n">Rosé z Frankovky <em>suché</em></span><span class="w-r">Mikulovská</span><span class="w-p">420</span></li>
+        </ul>
+      </div>
+
+      <div class="wine-col">
+        <h3 class="wine-h">Bublinky na přípitek</h3>
+        <ul class="wine-list">
+          <li><span class="w-n">Sekt <em>brut, tradiční metoda</em></span><span class="w-r">Velkopavlovická</span><span class="w-p">690</span></li>
+          <li><span class="w-n">Petnát <em>Ryzlink</em></span><span class="w-r">Slovácká</span><span class="w-p">640</span></li>
+          <li><span class="w-n">Burčák <em>září a říjen</em></span><span class="w-r">dle sklepa</span><span class="w-p">190</span></li>
+        </ul>
+        <p class="wine-note">Ceny za láhev 0,75 l. Nealko, káva a destiláty na samostatném lístku.
+          Vlastní víno po dohodě, korkovné 150&nbsp;Kč za láhev.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec sec-tight" id="faq">
+  <div class="wrap wrap-narrow">
+    <header class="sec-head">
+      <p class="eyebrow">Než se zeptáte</p>
+      <h2>Co se lidé ptají nejčastěji</h2>
+    </header>
+
+    <div class="faq">
+      <details>
+        <summary>Můžeme si přinést vlastní jídlo nebo dort?</summary>
+        <p>Dort ano, ten k oslavě patří — nachystáme talířky a naservírujeme. Vlastní teplé jídlo neděláme,
+          ale raut i večeři zajistíme s partnerskou kuchyní podle vašeho rozpočtu.</p>
+      </details>
+      <details>
+        <summary>Kolik lidí se skutečně vejde?</summary>
+        <p>U dlouhé tabule je 24 míst — jedenáct po každé straně a dvě v čele. Sklep pronajímáme vždy
+          celý, i když vás přijde dvanáct.</p>
+      </details>
+      <details>
+        <summary>Jak dlouho můžeme zůstat?</summary>
+        <p>Rezervace končí koncem posledního bloku, který jste si vybrali. Chcete-li být déle, přidejte
+          v kalendáři další blok po sobě — sklep je pod úrovní ulice a nikoho neruší.</p>
+      </details>
+      <details>
+        <summary>Můžeme mít vlastní hudbu nebo DJ?</summary>
+        <p>Ano. Ozvučení a Bluetooth jsou v ceně, stačí přijít s playlistem. Pro DJ máme přípravu
+          u baru včetně samostatného jističe.</p>
+      </details>
+      <details>
+        <summary>Jak se dostaneme dovnitř?</summary>
+        <p>Nejpozději dvě hodiny před začátkem vám přijde e-mail a SMS s kódem. Ten zadáte u vchodu
+          v čase své rezervace — nikoho nemusíte shánět a na nikoho nečekáte.</p>
+      </details>
+      <details>
+        <summary>Vystavíte doklad na firmu?</summary>
+        <p>Po online platbě přijde doklad e-mailem. Pokud potřebujete fakturu na IČO, napište nám
+          před rezervací a připravíme ji.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAKT -->
+<section class="sec" id="kontakt">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow">Kontakt</p>
+      <h2>Kde nás najdete</h2>
+      <p class="sec-lede">Sklep je v centru Opavy, šest schodů pod úrovní ulice. Prohlídku rádi
+        domluvíme i mimo otevírací dobu — stačí zavolat nebo napsat.</p>
+    </header>
+
+    <div class="kontakt-in">
+      <div class="contact-card">
+        <h3 class="cc-h">Vinárna Janská</h3>
+        <p class="cc-addr">Janská 769/4<br>746 01 Opava</p>
+        <dl class="cc-list">
+          <div><dt>Telefon</dt><dd><a href="tel:+420553612345">553 612 345</a></dd></div>
+          <div><dt>E-mail</dt><dd><a href="mailto:rezervace@vinarnajanska.cz">rezervace@vinarnajanska.cz</a></dd></div>
+          <div><dt>Prohlídky</dt><dd>po domluvě, i mimo otevírací dobu</dd></div>
+          <div><dt>Parkování</dt><dd>placené stání na Dolním náměstí, 3 minuty pěšky</dd></div>
+        </dl>
+      </div>
+
+      <div class="map">
+        <iframe title="Mapa — Janská 769/4, Opava" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Jansk%C3%A1%20769%2F4%2C%20746%2001%20Opava&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div class="foot-brand">
+      <span class="brand-txt">Vinárna <em>Janská</em></span>
+      <p>Sklepní vinárna v centru Opavy. Pronájem celého prostoru pro uzavřenou společnost.</p>
+    </div>
+
+    <div class="foot-col">
+      <h4>Kde nás najdete</h4>
+      <p>Janská 769/4<br>746 01 Opava</p>
+    </div>
+
+    <div class="foot-col">
+      <h4>Spojení</h4>
+      <p><a href="tel:+420553612345">553 612 345</a><br>
+         <a href="mailto:rezervace@vinarnajanska.cz">rezervace@vinarnajanska.cz</a></p>
+    </div>
+
+    <div class="foot-col">
+      <h4>Na webu</h4>
+      <p><a href="#prostor">Prostor</a><br><a href="#cenik">Ceník</a><br><a href="#kontakt">Kontakt</a></p>
+    </div>
+  </div>
+  <div class="wrap foot-legal">
+    <p>&copy; <span id="rok">2026</span> Vinárna Janská</p>
+    <p>Prodej alkoholu osobám mladším 18 let je zakázán.</p>
+  </div>
+</footer>
+
+<!-- Lightbox: ovládá js/main.js, bez JS zůstává skrytý a fotky se chovají jako obrázky -->
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Zvětšená fotka">
+  <button type="button" class="lb-close" data-lb="close" aria-label="Zavřít">&times;</button>
+  <button type="button" class="lb-nav lb-prev" data-lb="prev" aria-label="Předchozí fotka">&#8249;</button>
+  <button type="button" class="lb-nav lb-next" data-lb="next" aria-label="Další fotka">&#8250;</button>
+  <figure class="lb-fig">
+    <img class="lb-img" id="lb-img" src="" alt="">
+    <figcaption class="lb-cap"><span id="lb-cap"></span><span class="lb-count" id="lb-count"></span></figcaption>
+  </figure>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
